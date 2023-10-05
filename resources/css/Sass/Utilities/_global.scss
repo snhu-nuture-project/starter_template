@@ -1,0 +1,76 @@
+@import "../Utilities/themes";
+@import "../Utilities/variables";
+
+section {
+  margin: 5rem 0 5rem 0;
+}
+
+
+h1 {
+  color: $heritage;
+  font-size: $font-size-6xl;
+  font-weight: bold;
+  font-family: $oswald;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  color: $ink-blue;
+  font-weight: 700; 
+  font-size: $font-size-2xl;
+  font-family: $open-sans;
+}
+
+
+h3 {
+  color: $ink-blue;
+  font-size: $font-size-2xl;
+  font-family: $open-sans;
+  font-weight: 900;
+}
+
+p,
+li {
+  font-family: $open-sans;
+  font-size: $font-size-md;
+  font-weight: 400;
+  color: #666666;
+  line-height: 1.5;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+a.head-link {
+  font-size: $font-size-md;
+  font-weight: 700;
+  line-height: 24px;
+  font-family: $open-sans;
+  color: #fff;
+  text-decoration: none;
+}
+
+a.head-link:hover,
+a.head-link:focus {
+  text-decoration: underline #70abdb 2px;
+  text-underline-offset: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+a {
+color: $heritage;
+font-weight: 700;
+text-decoration: none;
+}
+
+@media only screen and (max-width: $breakpoint-sm) { 
+
+  section {
+    margin: 2.5rem 0 2.5rem 0;
+  }
+
+  
+
+}

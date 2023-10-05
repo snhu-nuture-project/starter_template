@@ -1,0 +1,23 @@
+
+
+
+ .navbar {
+    background-color:$ink-blue;
+  }
+
+
+  @media only screen and (max-width: $breakpoint-sm) {
+
+    .navbar>.container {
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .navbar-nav {
+      flex-direction: row;
+    }
+    
+
+  }
+
+  
